@@ -1,0 +1,6 @@
+No, the Expression interface cannot be a FunctionalInterface.
+Justification:
+
+A functional interface in Java is an interface that contains exactly one abstract method. 
+It can have default or static methods, but can have only one abstract method is allowed.
+In Expression, it has two abstract methods, which are 'evaluate()' and 'variables()'
